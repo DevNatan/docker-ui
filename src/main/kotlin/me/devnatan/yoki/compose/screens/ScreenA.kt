@@ -1,4 +1,4 @@
-package me.devnatan.yoki.ui.screens
+package me.devnatan.yoki.compose.screens
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.material.Button
@@ -8,15 +8,15 @@ import cafe.adriel.voyager.core.screen.Screen
 import cafe.adriel.voyager.navigator.LocalNavigator
 import cafe.adriel.voyager.navigator.currentOrThrow
 
-class ScreenB : Screen {
+class ScreenA : Screen {
 
     @Composable
     override fun Content() {
         val navigator = LocalNavigator.currentOrThrow
         Column {
-            Text(text = "Tela B")
-            Button(onClick = { navigator.pop() }) {
-                Text(text = "Voltar pra tela A")
+            Text(text = "Tela A")
+            Button(onClick = { navigator.push(ScreenB()) }) {
+                Text(text = "Ir pra tela B")
             }
         }
     }

@@ -1,4 +1,4 @@
-package me.devnatan.yoki.ui
+package me.devnatan.yoki.compose
 
 import androidx.compose.desktop.ui.tooling.preview.Preview
 import androidx.compose.foundation.layout.Arrangement
@@ -12,8 +12,8 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.Window
 import androidx.compose.ui.window.application
 import cafe.adriel.voyager.navigator.Navigator
-import me.devnatan.yoki.ui.screens.ScreenA
-import me.devnatan.yoki.ui.screens.ScreenB
+import me.devnatan.yoki.compose.screens.ScreenA
+import me.devnatan.yoki.compose.screens.ScreenB
 
 @Composable
 @Preview
