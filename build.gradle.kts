@@ -5,7 +5,7 @@ plugins {
     id("org.jetbrains.compose")
 }
 
-group = "me.devnatan.yoki.ui"
+group = "me.devnatan.dockerui"
 version = "1.0-SNAPSHOT"
 
 repositories {

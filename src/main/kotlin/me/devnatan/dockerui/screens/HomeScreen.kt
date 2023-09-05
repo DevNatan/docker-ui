@@ -1,4 +1,4 @@
-package me.devnatan.yoki.compose.screens
+package me.devnatan.dockerui.screens
 
 import androidx.compose.desktop.ui.tooling.preview.Preview
 import androidx.compose.foundation.layout.*
@@ -11,13 +11,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import cafe.adriel.voyager.core.screen.Screen
-import kotlinx.coroutines.delay
-import kotlinx.coroutines.yield
-import me.devnatan.yoki.compose.LocalYoki
-import me.devnatan.yoki.compose.theme.AppTheme
-import me.devnatan.yoki.models.container.ContainerListOptions
+import me.devnatan.dockerui.LocalYoki
+import me.devnatan.dockerui.theme.AppTheme
 import me.devnatan.yoki.models.system.SystemPingData
-import me.devnatan.yoki.resource.container.list
 
 private data class Container(val name: String, val status: String)
 

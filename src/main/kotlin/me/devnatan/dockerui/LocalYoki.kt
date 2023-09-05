@@ -1,4 +1,4 @@
-package me.devnatan.yoki.compose
+package me.devnatan.dockerui
 
 import androidx.compose.runtime.ProvidableCompositionLocal
 import androidx.compose.runtime.staticCompositionLocalOf

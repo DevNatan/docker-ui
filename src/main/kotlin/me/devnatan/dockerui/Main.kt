@@ -1,4 +1,4 @@
-package me.devnatan.yoki.compose
+package me.devnatan.dockerui
 
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.ui.window.Window
@@ -6,7 +6,7 @@ import androidx.compose.ui.window.application
 import cafe.adriel.voyager.navigator.Navigator
 import me.devnatan.yoki.Yoki
 import me.devnatan.yoki.YokiConfigBuilder
-import me.devnatan.yoki.compose.screens.HomeScreen
+import me.devnatan.dockerui.screens.HomeScreen
 
 fun main() {
     val yoki = Yoki.create(YokiConfigBuilder().forCurrentPlatform().build())
