@@ -10,4 +10,4 @@ pluginManagement {
     }
 }
 
-rootProject.name = "yoki-compose"
+rootProject.name = "docker-ui"
